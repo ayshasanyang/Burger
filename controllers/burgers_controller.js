@@ -1,9 +1,6 @@
-var express = require("express");
-var router = express.Router();
-// Import the model burger.js file (../models/burger.js) to use its database functions.
-var burger = require("../models/burger.js");
-
-// Routes
+const express = require("express");
+const router = express.Router();
+const burger = require("../models/burger.js");
 
 // GET Route 
 
@@ -18,7 +15,6 @@ router.get("/", function(req, res) {
 });
 
 // POST Route
-
 router.post("/api/burgers", function(req, res) {
   burger.create([
     "burger_name", "devoured"
@@ -32,7 +28,7 @@ router.post("/api/burgers", function(req, res) {
 
 // PUT Route -
 router.put("/api/burgers/:id", function(req, res) {
-  var condition = "id = " + req.params.id;
+  const condition = "id = " + req.params.id;
   console.log("condition", condition);
   burger.update({
     devoured: req.body.devoured
