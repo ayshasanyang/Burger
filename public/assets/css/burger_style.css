@@ -35,14 +35,12 @@ body {
     text-align: center;
     line-height: 50px;
     margin: 0px;
-    /* color: #f7c948; */
     background: #9a4f01;
     border-bottom: 3px solid #ccc;
   }
   
   li {
     padding: 5px;
-    /* margin: 5px; */
     background: #faebd7;
   }
   
@@ -86,17 +84,9 @@ body {
     width: 100%;
     
     text-align: center;
-    color: #27c48f;
+    color: #a5342d;
     font: 20px "Fira Sans", serif;
     font-family: Georgia, serif;
     padding: 10px 5px 0px;
   }
   
-  /* span.iggy, p {
-    float: left;
-    margin: 0px 15px 0px;
-    text-align: center;
-    color: #27c48f;
-    font: 30px "Fira Sans", serif;
-    font-family: 'Luckiest Guy', cursive;
-  } */
