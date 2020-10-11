@@ -1,8 +1,8 @@
 
-var connection = require("../config/connection.js");
+const connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
-	var arr = [];
+	let arr = [];
 
 	for (var i = 0; i < num; i++) {
 		arr.push("?");
@@ -13,10 +13,10 @@ function printQuestionMarks(num) {
 
 // Helper function to convert object key/value pairs to SQL syntax
 function objToSql(ob) {
-	var arr = [];
+	let arr = [];
 
 	for (var key in ob) {
-		var value = ob[key];
+		const value = ob[key];
 		// check to skip hidden properties
 		if (Object.hasOwnProperty.call(ob, key)) {
 			if (typeof value === "string" && value.indexOf(" ") >= 0) {
@@ -30,7 +30,7 @@ function objToSql(ob) {
 }
 
 // READ/SELECT all the records in the database
-var orm = {
+const orm = {
   all: function(tableInput, br) {
     var queryString = 'SELECT * FROM ' + tableInput + ';';
     connection.query(queryString, function(err, result) {
