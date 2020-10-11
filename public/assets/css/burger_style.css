@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color:  #f7c948;;
-    background-color: #6b9362;
+    background-color: #e7c9a9;
   }
   
   ul {
@@ -20,7 +20,7 @@ body {
     height: 150px;
     line-height: 125px;
     color: #f7c948;
-    background: #717530;
+    background: #9a4f01;
     border-bottom: 3px solid #ccc;
     text-align: center;
     padding: 10px;
@@ -36,7 +36,7 @@ body {
     line-height: 50px;
     margin: 0px;
     /* color: #f7c948; */
-    background: #717530;
+    background: #9a4f01;
     border-bottom: 3px solid #ccc;
   }
   
