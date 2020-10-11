@@ -80,22 +80,22 @@ const orm = {
 
       br(result);
     });
-  },
+  }
 
   // DELETE/DELETE a specific record in the database
-  delete: function(table, condition, br) {
-    var queryString = 'DELETE FROM ' + table;
-    queryString += ' WHERE ';
-    queryString += condition;
+//   delete: function(table, condition, br) {
+//     var queryString = 'DELETE FROM ' + table;
+//     queryString += ' WHERE ';
+//     queryString += condition;
 
-    connection.query(queryString, function(err, result) {
-      if (err) {
-        throw err;
-      }
+//     connection.query(queryString, function(err, result) {
+//       if (err) {
+//         throw err;
+//       }
 
-      br(result);
-    });
-  },
+//       br(result);
+//     });
+//   },
 };
 
 // Export the orm object for the model (../models/burger.js).
