@@ -91,4 +91,13 @@ body {
     font-family: Georgia, serif;
     padding: 10px 5px 0px;
   }
+
+  #burger-ready {
+    float: right;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: #62EDD6;
+  
+}
   
