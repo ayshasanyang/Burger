@@ -28,6 +28,7 @@ npm install
    mysql
    express
    express-handlebars
+   body-parser
 ```
 ## Demo
 
@@ -35,6 +36,7 @@ npm install
 
 ![Burger App](public/assets/img/app.PNG)
 
+![Burger](public/assets/img/burger.gif)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
