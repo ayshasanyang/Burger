@@ -1,4 +1,12 @@
 # Burger
+ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+- [Description](#description)
+- [Installation](#installation)
+- [Demo](#demo)
+- [License](#license)
+- [Technologies Used](#technologies-used)
+- [Questions](#questions)
 
 ## Description
 This is a restaurant app that lets users input the names of burgers they'd like to eat, then the burger will be displayed in the menu list on the left side of the page, waiting to be devoured. The app was created with MySQL, node.js, and handlebars. The application follows the MVC design pattern.
@@ -9,22 +17,24 @@ This is a restaurant app that lets users input the names of burgers they'd like 
 The app stores all the added burgers to the database.
 
 ## Installation
+To run the application in your local machine, first clone the repository with the following command.
+```
+git clone git@github.com:ayshasanyang/Burger.git
+```
+Next, install the app dependencies.
+Navigate into the project folder (Burger) and run the following commands.
 ```
 npm install
    mysql
    express
    express-handlebars
 ```
-
+## Demo
 
 [Deployed App in Heroku](https://sleepy-reaches-91541.herokuapp.com/)
 
 ![Burger App](public/assets/img/app.PNG)
 
-## Instructions
-### App Setup
-1. Create a Github repo called burger and clone it to your computer.
-1. Make a package.json file by running npm init from the command line.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
