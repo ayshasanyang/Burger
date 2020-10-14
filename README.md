@@ -35,7 +35,7 @@ npm install
 [Deployed App in Heroku](https://sleepy-reaches-91541.herokuapp.com/)
 
 
-![Burger](public/assets/img/burger.gif)
+![Burger](public/assets/img/burger1.gif)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
